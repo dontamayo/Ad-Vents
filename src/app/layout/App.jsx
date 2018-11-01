@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch} from "react-router-dom";
 import EventForm from "../../features/event/EventForm/EventForm";
 import SettingsDashboard from "../../features/user/Settings/SettingsDashboard";
 import EventDashboard from "../../features/event/EventDashboard/EventDashboard";
