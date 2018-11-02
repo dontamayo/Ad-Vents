@@ -10,8 +10,7 @@ import AccountPage from "./AccountPage";
 const SettingsDashboard = () => {
   return (
     <Grid>
-      <Grid.Column width={12}>
-    
+      <Grid.Column width={12}>    
         <Switch>
           <Redirect exact from='/settings' to='/settings/basic' />
           <Route path="/settings/basics" component={BasicPage} />
