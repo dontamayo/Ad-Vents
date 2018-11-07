@@ -17,7 +17,7 @@ class TestComponent extends Component {
     const {incrementCounter, decrementCounter, data} = this.props;
     return (
       <div>
-        <h1>How many dogs I have? </h1>
+        <h1>How many dogs I have?</h1>
         <h3>`you have {data} dogs`</h3>
         <Button onClick={incrementCounter} color='green' content='Increment' />
         <Button onClick={decrementCounter} color='red' content='Decrement' />
