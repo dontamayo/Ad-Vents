@@ -2,7 +2,7 @@ import { CREATE_EVENT, DELETE_EVENT, UPDATE_EVENT } from './eventConstants';
 
 
 export const createEvent = (event) => {
-    return{
+    return {
         type: CREATE_EVENT,
         payload: {
             event

@@ -28,7 +28,8 @@ class App extends Component {
                 <Switch>
                   <Route path="/events" component={EventDashboard} />
                   <Route path="/test" component={TestComponent} />
-                  <Route path="/events/:id" component={EventDetailedPage} />
+                  {/* this will be change */}
+                  <Route path="/events/:id" component={EventDetailedPage} /> 
                   <Route path="/people" component={PeopleDashboard} />
                   <Route path="/profile/:id" component={UserDetailedPage} />
                   <Route path="/settings" component={SettingsDashboard} />
@@ -44,3 +45,5 @@ class App extends Component {
 }
 
 export default App;
+
+
