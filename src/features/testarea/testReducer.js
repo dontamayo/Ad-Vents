@@ -7,7 +7,8 @@ import {
 } from "./testConstants";
 
 const initialState = {
-  data: 43
+  data: 43,
+  loading: false
 };
 
 const incrementCounter = (state, payload) => {
