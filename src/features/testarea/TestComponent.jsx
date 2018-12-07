@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button } from 'semantic-ui-react';
-import Script from 'react-load-script';
+// import Script from 'react-load-script';
 import { connect } from 'react-redux';
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete'
 import { incrementAsync, decrementAsync } from './testActions';
@@ -54,10 +54,10 @@ class TestComponent extends Component {
     const {incrementAsync, decrementAsync, data, openModal, loading } = this.props;
     return (
       <div>
-        <Script
+        {/* <Script
           url='https://maps.googleapis.com/maps/api/js?key=AIzaSyDzOWEyg_Y-HY2GbUOEaGW0f_9UZTCZ0Dw&libraries=places'
           onLoad={this.handleScriptLoad}
-        />
+        /> */}
         <h1>How many dogs I have?</h1>
         <h3>`you have {data} dogs`</h3>
         <Button loading={loading} onClick={incrementAsync} color='green' content='Increment' />
